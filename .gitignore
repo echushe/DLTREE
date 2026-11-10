@@ -1,0 +1,21 @@
+# Python-generated files and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Obsidian local workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Operating system files
+.DS_Store
+Thumbs.db

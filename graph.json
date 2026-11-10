@@ -1,0 +1,2059 @@
+{
+  "schema_version": 1,
+  "nodes": [
+    {
+      "id": "activation-functions",
+      "type": "concept",
+      "title": "Activation Functions",
+      "aliases": [
+        "Nonlinearity",
+        "Nonlinear activation"
+      ],
+      "domains": [
+        "foundations"
+      ],
+      "path": "concepts/activation-functions.md",
+      "external_references": []
+    },
+    {
+      "id": "ba-2016-layer-normalization",
+      "type": "paper",
+      "title": "Layer Normalization",
+      "authors": [
+        "Jimmy Lei Ba",
+        "Jamie Ryan Kiros",
+        "Geoffrey E. Hinton"
+      ],
+      "year": 2016,
+      "venue": "arXiv:1607.06450",
+      "selection": "normalization-root",
+      "path": "papers/ba-2016-layer-normalization.md",
+      "external_references": [
+        {
+          "label": "Paper and version history",
+          "url": "https://arxiv.org/abs/1607.06450"
+        }
+      ]
+    },
+    {
+      "id": "backpropagation",
+      "type": "concept",
+      "title": "Backpropagation",
+      "aliases": [
+        "Backprop",
+        "Reverse-mode differentiation in neural networks"
+      ],
+      "domains": [
+        "foundations"
+      ],
+      "path": "concepts/backpropagation.md",
+      "external_references": []
+    },
+    {
+      "id": "batch-normalization",
+      "type": "concept",
+      "title": "Batch Normalization",
+      "aliases": [
+        "BatchNorm",
+        "BN"
+      ],
+      "domains": [
+        "foundations",
+        "computer-vision"
+      ],
+      "path": "concepts/batch-normalization.md",
+      "external_references": []
+    },
+    {
+      "id": "bellman-1954-dynamic-programming",
+      "type": "paper",
+      "title": "Some Applications of the Theory of Dynamic Programming—A Review",
+      "authors": [
+        "Richard Bellman"
+      ],
+      "year": 1954,
+      "venue": "Journal of the Operations Research Society of America",
+      "selection": "decision-optimization-root",
+      "path": "papers/bellman-1954-dynamic-programming.md",
+      "external_references": [
+        {
+          "label": "Publisher record and abstract",
+          "url": "https://pubsonline.informs.org/doi/10.1287/opre.2.3.275"
+        }
+      ]
+    },
+    {
+      "id": "bellman-equations",
+      "type": "concept",
+      "title": "Bellman Equations",
+      "aliases": [
+        "Bellman expectation equation",
+        "Bellman optimality equation",
+        "Dynamic programming"
+      ],
+      "domains": [
+        "foundations",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/bellman-equations.md",
+      "external_references": []
+    },
+    {
+      "id": "convolutional-neural-network",
+      "type": "concept",
+      "title": "Convolutional Neural Network",
+      "aliases": [
+        "CNN",
+        "ConvNet",
+        "Convolution"
+      ],
+      "domains": [
+        "computer-vision",
+        "time-series"
+      ],
+      "path": "concepts/convolutional-neural-network.md",
+      "external_references": []
+    },
+    {
+      "id": "dltree",
+      "type": "hub",
+      "title": "DLTREE: Deep Learning and Reinforcement Learning Knowledge Graph",
+      "aliases": [
+        "DLTREE"
+      ],
+      "domains": [
+        "foundations",
+        "computer-vision",
+        "time-series",
+        "nlp",
+        "generative-ai",
+        "reinforcement-learning",
+        "model-efficiency"
+      ],
+      "path": "README.md",
+      "external_references": []
+    },
+    {
+      "id": "elman-1990-finding-structure-in-time",
+      "type": "paper",
+      "title": "Finding Structure in Time",
+      "authors": [
+        "Jeffrey L. Elman"
+      ],
+      "year": 1990,
+      "venue": "Cognitive Science",
+      "selection": "recurrent-representation-milestone",
+      "path": "papers/elman-1990-finding-structure-in-time.md",
+      "external_references": [
+        {
+          "label": "Publisher record and abstract",
+          "url": "https://doi.org/10.1207/s15516709cog1402_1"
+        }
+      ]
+    },
+    {
+      "id": "embeddings",
+      "type": "concept",
+      "title": "Embeddings",
+      "aliases": [
+        "Embedding layer",
+        "Learned vector representation",
+        "Word embeddings"
+      ],
+      "domains": [
+        "foundations",
+        "nlp",
+        "generative-ai",
+        "recommendation"
+      ],
+      "path": "concepts/embeddings.md",
+      "external_references": []
+    },
+    {
+      "id": "gradient-descent",
+      "type": "concept",
+      "title": "Gradient Descent",
+      "aliases": [
+        "GD"
+      ],
+      "domains": [
+        "foundations"
+      ],
+      "path": "concepts/gradient-descent.md",
+      "external_references": []
+    },
+    {
+      "id": "he-2016-deep-residual-learning",
+      "type": "paper",
+      "title": "Deep Residual Learning for Image Recognition",
+      "authors": [
+        "Kaiming He",
+        "Xiangyu Zhang",
+        "Shaoqing Ren",
+        "Jian Sun"
+      ],
+      "year": 2016,
+      "preprint_year": 2015,
+      "venue": "CVPR",
+      "selection": "residual-learning-milestone",
+      "path": "papers/he-2016-deep-residual-learning.md",
+      "external_references": [
+        {
+          "label": "Author-submitted paper",
+          "url": "https://arxiv.org/abs/1512.03385"
+        }
+      ]
+    },
+    {
+      "id": "hochreiter-1997-long-short-term-memory",
+      "type": "paper",
+      "title": "Long Short-Term Memory",
+      "authors": [
+        "Sepp Hochreiter",
+        "Jürgen Schmidhuber"
+      ],
+      "year": 1997,
+      "venue": "Neural Computation",
+      "selection": "gated-memory-root",
+      "path": "papers/hochreiter-1997-long-short-term-memory.md",
+      "external_references": [
+        {
+          "label": "Publisher record",
+          "url": "https://doi.org/10.1162/neco.1997.9.8.1735"
+        },
+        {
+          "label": "Author-hosted paper",
+          "url": "https://www.bioinf.jku.at/publications/older/2604.pdf"
+        }
+      ]
+    },
+    {
+      "id": "ioffe-2015-batch-normalization",
+      "type": "paper",
+      "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+      "authors": [
+        "Sergey Ioffe",
+        "Christian Szegedy"
+      ],
+      "year": 2015,
+      "venue": "ICML",
+      "selection": "normalization-root",
+      "path": "papers/ioffe-2015-batch-normalization.md",
+      "external_references": [
+        {
+          "label": "Paper and version history",
+          "url": "https://arxiv.org/abs/1502.03167"
+        }
+      ]
+    },
+    {
+      "id": "layer-normalization",
+      "type": "concept",
+      "title": "Layer Normalization",
+      "aliases": [
+        "LayerNorm",
+        "LN"
+      ],
+      "domains": [
+        "foundations",
+        "nlp",
+        "time-series",
+        "generative-ai"
+      ],
+      "path": "concepts/layer-normalization.md",
+      "external_references": []
+    },
+    {
+      "id": "lecun-1989-optimal-brain-damage",
+      "type": "paper",
+      "title": "Optimal Brain Damage",
+      "authors": [
+        "Yann LeCun",
+        "John S. Denker",
+        "Sara A. Solla"
+      ],
+      "year": 1989,
+      "venue": "NIPS 1989; Advances in Neural Information Processing Systems 2",
+      "selection": "curvature-pruning-root",
+      "path": "papers/lecun-1989-optimal-brain-damage.md",
+      "external_references": [
+        {
+          "label": "Conference record",
+          "url": "https://proceedings.neurips.cc/paper/1989/hash/6c9882bbac1c7093bd25041881277658-Abstract.html"
+        },
+        {
+          "label": "Full paper",
+          "url": "https://proceedings.neurips.cc/paper_files/paper/1989/file/6c9882bbac1c7093bd25041881277658-Paper.pdf"
+        }
+      ]
+    },
+    {
+      "id": "lecun-1998-document-recognition",
+      "type": "paper",
+      "title": "Gradient-Based Learning Applied to Document Recognition",
+      "authors": [
+        "Yann LeCun",
+        "Léon Bottou",
+        "Yoshua Bengio",
+        "Patrick Haffner"
+      ],
+      "year": 1998,
+      "venue": "Proceedings of the IEEE",
+      "selection": "learned-vision-milestone",
+      "path": "papers/lecun-1998-document-recognition.md",
+      "external_references": [
+        {
+          "label": "Author's publication record and full text",
+          "url": "https://bottou.org/papers/lecun-98h"
+        }
+      ]
+    },
+    {
+      "id": "long-short-term-memory",
+      "type": "concept",
+      "title": "Long Short-Term Memory",
+      "aliases": [
+        "LSTM",
+        "LSTM cell"
+      ],
+      "domains": [
+        "time-series",
+        "nlp",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/long-short-term-memory.md",
+      "external_references": [
+        {
+          "label": "the official implementation equations",
+          "url": "https://docs.pytorch.org/docs/2.15/generated/torch.nn.LSTM.html"
+        }
+      ]
+    },
+    {
+      "id": "loss-functions",
+      "type": "concept",
+      "title": "Loss Functions",
+      "aliases": [
+        "Training loss",
+        "Objective function"
+      ],
+      "domains": [
+        "foundations",
+        "time-series",
+        "nlp",
+        "computer-vision"
+      ],
+      "path": "concepts/loss-functions.md",
+      "external_references": []
+    },
+    {
+      "id": "markov-chain",
+      "type": "concept",
+      "title": "Markov Chain",
+      "aliases": [
+        "Discrete-time Markov chain",
+        "DTMC"
+      ],
+      "domains": [
+        "foundations",
+        "time-series",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/markov-chain.md",
+      "external_references": []
+    },
+    {
+      "id": "markov-decision-process",
+      "type": "concept",
+      "title": "Markov Decision Process",
+      "aliases": [
+        "MDP"
+      ],
+      "domains": [
+        "foundations",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/markov-decision-process.md",
+      "external_references": []
+    },
+    {
+      "id": "markov-property",
+      "type": "concept",
+      "title": "Markov Property",
+      "aliases": [
+        "Markov assumption",
+        "Memoryless property"
+      ],
+      "domains": [
+        "foundations",
+        "time-series",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/markov-property.md",
+      "external_references": []
+    },
+    {
+      "id": "mikolov-2013-word-representations",
+      "type": "paper",
+      "title": "Efficient Estimation of Word Representations in Vector Space",
+      "authors": [
+        "Tomas Mikolov",
+        "Kai Chen",
+        "Greg Corrado",
+        "Jeffrey Dean"
+      ],
+      "year": 2013,
+      "venue": "ICLR Workshop; arXiv:1301.3781",
+      "selection": "embedding-milestone",
+      "path": "papers/mikolov-2013-word-representations.md",
+      "external_references": [
+        {
+          "label": "Paper and version history",
+          "url": "https://arxiv.org/abs/1301.3781"
+        }
+      ]
+    },
+    {
+      "id": "multi-head-attention",
+      "type": "concept",
+      "title": "Multi-Head Attention",
+      "aliases": [
+        "MHA",
+        "Attention heads"
+      ],
+      "domains": [
+        "nlp",
+        "computer-vision",
+        "time-series",
+        "generative-ai"
+      ],
+      "path": "concepts/multi-head-attention.md",
+      "external_references": []
+    },
+    {
+      "id": "multi-layer-perceptron",
+      "type": "concept",
+      "title": "Multi-Layer Perceptron",
+      "aliases": [
+        "MLP",
+        "Dense neural network",
+        "Feedforward neural network"
+      ],
+      "domains": [
+        "foundations",
+        "computer-vision",
+        "time-series",
+        "nlp",
+        "generative-ai",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/multi-layer-perceptron.md",
+      "external_references": []
+    },
+    {
+      "id": "nair-2010-rectified-linear-units",
+      "type": "paper",
+      "title": "Rectified Linear Units Improve Restricted Boltzmann Machines",
+      "authors": [
+        "Vinod Nair",
+        "Geoffrey E. Hinton"
+      ],
+      "year": 2010,
+      "venue": "ICML",
+      "selection": "activation-milestone",
+      "path": "papers/nair-2010-rectified-linear-units.md",
+      "external_references": [
+        {
+          "label": "Conference paper",
+          "url": "https://icml.cc/2010/papers/432.pdf"
+        }
+      ]
+    },
+    {
+      "id": "neural-network-pruning",
+      "type": "concept",
+      "title": "Neural-Network Pruning",
+      "aliases": [
+        "Network pruning",
+        "Weight pruning",
+        "Model pruning"
+      ],
+      "domains": [
+        "foundations",
+        "model-efficiency",
+        "computer-vision",
+        "generative-ai"
+      ],
+      "path": "concepts/neural-network-pruning.md",
+      "external_references": []
+    },
+    {
+      "id": "positional-encoding",
+      "type": "concept",
+      "title": "Positional Encoding",
+      "aliases": [
+        "Position embeddings",
+        "Sinusoidal positional encoding"
+      ],
+      "domains": [
+        "nlp",
+        "time-series",
+        "computer-vision",
+        "generative-ai"
+      ],
+      "path": "concepts/positional-encoding.md",
+      "external_references": []
+    },
+    {
+      "id": "q-learning",
+      "type": "concept",
+      "title": "Q-Learning",
+      "aliases": [
+        "Tabular Q-learning",
+        "Off-policy TD control"
+      ],
+      "domains": [
+        "reinforcement-learning"
+      ],
+      "path": "concepts/q-learning.md",
+      "external_references": []
+    },
+    {
+      "id": "recurrent-neural-network",
+      "type": "concept",
+      "title": "Recurrent Neural Network",
+      "aliases": [
+        "RNN",
+        "Simple recurrent network",
+        "Elman network"
+      ],
+      "domains": [
+        "time-series",
+        "nlp",
+        "reinforcement-learning"
+      ],
+      "path": "concepts/recurrent-neural-network.md",
+      "external_references": []
+    },
+    {
+      "id": "regularization",
+      "type": "concept",
+      "title": "Regularization",
+      "aliases": [
+        "Regularisation",
+        "Training regularization"
+      ],
+      "domains": [
+        "foundations",
+        "computer-vision",
+        "nlp",
+        "time-series"
+      ],
+      "path": "concepts/regularization.md",
+      "external_references": []
+    },
+    {
+      "id": "relu",
+      "type": "concept",
+      "title": "Rectified Linear Unit",
+      "aliases": [
+        "ReLU",
+        "Rectifier"
+      ],
+      "domains": [
+        "foundations",
+        "computer-vision"
+      ],
+      "path": "concepts/relu.md",
+      "external_references": []
+    },
+    {
+      "id": "residual-connections",
+      "type": "concept",
+      "title": "Residual Connections",
+      "aliases": [
+        "Skip connection",
+        "Residual block",
+        "Shortcut connection"
+      ],
+      "domains": [
+        "foundations",
+        "computer-vision",
+        "nlp",
+        "generative-ai"
+      ],
+      "path": "concepts/residual-connections.md",
+      "external_references": []
+    },
+    {
+      "id": "rumelhart-1986-backpropagation",
+      "type": "paper",
+      "title": "Learning representations by back-propagating errors",
+      "authors": [
+        "David E. Rumelhart",
+        "Geoffrey E. Hinton",
+        "Ronald J. Williams"
+      ],
+      "year": 1986,
+      "venue": "Nature",
+      "selection": "training-milestone",
+      "path": "papers/rumelhart-1986-backpropagation.md",
+      "external_references": [
+        {
+          "label": "Publisher record",
+          "url": "https://www.nature.com/articles/323533a0"
+        },
+        {
+          "label": "Author-hosted paper",
+          "url": "https://www.cs.toronto.edu/~hinton/absps/naturebp.pdf"
+        }
+      ]
+    },
+    {
+      "id": "scaled-dot-product-attention",
+      "type": "concept",
+      "title": "Scaled Dot-Product Attention",
+      "aliases": [
+        "SDPA",
+        "Query-key-value attention"
+      ],
+      "domains": [
+        "nlp",
+        "computer-vision",
+        "time-series",
+        "generative-ai"
+      ],
+      "path": "concepts/scaled-dot-product-attention.md",
+      "external_references": []
+    },
+    {
+      "id": "softmax",
+      "type": "concept",
+      "title": "Softmax",
+      "aliases": [
+        "Normalized exponential"
+      ],
+      "domains": [
+        "foundations",
+        "nlp",
+        "generative-ai"
+      ],
+      "path": "concepts/softmax.md",
+      "external_references": []
+    },
+    {
+      "id": "srivastava-2014-dropout",
+      "type": "paper",
+      "title": "Dropout: A Simple Way to Prevent Neural Networks from Overfitting",
+      "authors": [
+        "Nitish Srivastava",
+        "Geoffrey Hinton",
+        "Alex Krizhevsky",
+        "Ilya Sutskever",
+        "Ruslan Salakhutdinov"
+      ],
+      "year": 2014,
+      "venue": "Journal of Machine Learning Research",
+      "selection": "stochastic-regularization-milestone",
+      "path": "papers/srivastava-2014-dropout.md",
+      "external_references": [
+        {
+          "label": "Journal paper and full text",
+          "url": "https://jmlr.org/papers/v15/srivastava14a.html"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "title": "Transformer",
+      "aliases": [
+        "Transformer architecture",
+        "Attention-based sequence model"
+      ],
+      "domains": [
+        "nlp",
+        "generative-ai",
+        "computer-vision",
+        "time-series"
+      ],
+      "path": "concepts/transformer.md",
+      "external_references": []
+    },
+    {
+      "id": "vaswani-2017-attention",
+      "type": "paper",
+      "title": "Attention Is All You Need",
+      "authors": [
+        "Ashish Vaswani",
+        "Noam Shazeer",
+        "Niki Parmar",
+        "Jakob Uszkoreit",
+        "Llion Jones",
+        "Aidan N. Gomez",
+        "Łukasz Kaiser",
+        "Illia Polosukhin"
+      ],
+      "year": 2017,
+      "venue": "NIPS",
+      "selection": "transformer-root",
+      "path": "papers/vaswani-2017-attention.md",
+      "external_references": [
+        {
+          "label": "Paper and version history",
+          "url": "https://arxiv.org/abs/1706.03762"
+        }
+      ]
+    },
+    {
+      "id": "watkins-1992-q-learning",
+      "type": "paper",
+      "title": "Technical Note: Q-Learning",
+      "authors": [
+        "Christopher J. C. H. Watkins",
+        "Peter Dayan"
+      ],
+      "year": 1992,
+      "venue": "Machine Learning",
+      "selection": "value-learning-milestone",
+      "path": "papers/watkins-1992-q-learning.md",
+      "external_references": [
+        {
+          "label": "Publisher record",
+          "url": "https://doi.org/10.1023/A:1022676722315"
+        },
+        {
+          "label": "Author-hosted paper",
+          "url": "https://www.gatsby.ucl.ac.uk/~dayan/papers/cjch.pdf"
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "activation-functions",
+      "relation": "related_to",
+      "target": "backpropagation"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "related_to",
+      "target": "loss-functions"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "specialized_by",
+      "target": "relu"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "specialized_by",
+      "target": "softmax"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "supported_by",
+      "target": "nair-2010-rectified-linear-units"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "supported_by",
+      "target": "rumelhart-1986-backpropagation"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "used_by",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "used_by",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "activation-functions",
+      "relation": "used_by",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "ba-2016-layer-normalization",
+      "relation": "compares_with",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "ba-2016-layer-normalization",
+      "relation": "explains",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "ba-2016-layer-normalization",
+      "relation": "related_to",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "ba-2016-layer-normalization",
+      "relation": "related_to",
+      "target": "transformer"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "popularized_by",
+      "target": "rumelhart-1986-backpropagation"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "related_to",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "related_to",
+      "target": "residual-connections"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "requires",
+      "target": "loss-functions"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "requires",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "used_by",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "used_by",
+      "target": "neural-network-pruning"
+    },
+    {
+      "source": "backpropagation",
+      "relation": "used_by",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "compares_with",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "introduced_in",
+      "target": "ioffe-2015-batch-normalization"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "related_to",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "related_to",
+      "target": "regularization"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "related_to",
+      "target": "residual-connections"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "used_by",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "batch-normalization",
+      "relation": "used_by",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "bellman-1954-dynamic-programming",
+      "relation": "related_to",
+      "target": "bellman-equations"
+    },
+    {
+      "source": "bellman-1954-dynamic-programming",
+      "relation": "related_to",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "bellman-1954-dynamic-programming",
+      "relation": "related_to",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "bellman-equations",
+      "relation": "requires",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "bellman-equations",
+      "relation": "supported_by",
+      "target": "bellman-1954-dynamic-programming"
+    },
+    {
+      "source": "bellman-equations",
+      "relation": "supported_by",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "bellman-equations",
+      "relation": "used_by",
+      "target": "q-learning"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "compares_with",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "compares_with",
+      "target": "transformer"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "requires",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "supported_by",
+      "target": "lecun-1998-document-recognition"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "uses",
+      "target": "activation-functions"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "uses",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "uses",
+      "target": "relu"
+    },
+    {
+      "source": "convolutional-neural-network",
+      "relation": "uses",
+      "target": "residual-connections"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "activation-functions"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "ba-2016-layer-normalization"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "backpropagation"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "bellman-1954-dynamic-programming"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "bellman-equations"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "elman-1990-finding-structure-in-time"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "embeddings"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "he-2016-deep-residual-learning"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "hochreiter-1997-long-short-term-memory"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "ioffe-2015-batch-normalization"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "lecun-1989-optimal-brain-damage"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "lecun-1998-document-recognition"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "loss-functions"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "markov-chain"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "markov-property"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "mikolov-2013-word-representations"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "multi-head-attention"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "nair-2010-rectified-linear-units"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "neural-network-pruning"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "positional-encoding"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "q-learning"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "regularization"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "relu"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "residual-connections"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "rumelhart-1986-backpropagation"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "scaled-dot-product-attention"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "softmax"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "srivastava-2014-dropout"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "transformer"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "dltree",
+      "relation": "related_to",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "elman-1990-finding-structure-in-time",
+      "relation": "explains",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "elman-1990-finding-structure-in-time",
+      "relation": "related_to",
+      "target": "embeddings"
+    },
+    {
+      "source": "elman-1990-finding-structure-in-time",
+      "relation": "related_to",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "embeddings",
+      "relation": "popularized_by",
+      "target": "mikolov-2013-word-representations"
+    },
+    {
+      "source": "embeddings",
+      "relation": "related_to",
+      "target": "positional-encoding"
+    },
+    {
+      "source": "embeddings",
+      "relation": "related_to",
+      "target": "scaled-dot-product-attention"
+    },
+    {
+      "source": "embeddings",
+      "relation": "used_by",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "embeddings",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "embeddings",
+      "relation": "uses",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "embeddings",
+      "relation": "uses",
+      "target": "loss-functions"
+    },
+    {
+      "source": "gradient-descent",
+      "relation": "related_to",
+      "target": "regularization"
+    },
+    {
+      "source": "gradient-descent",
+      "relation": "requires",
+      "target": "loss-functions"
+    },
+    {
+      "source": "gradient-descent",
+      "relation": "supported_by",
+      "target": "rumelhart-1986-backpropagation"
+    },
+    {
+      "source": "gradient-descent",
+      "relation": "used_by",
+      "target": "embeddings"
+    },
+    {
+      "source": "gradient-descent",
+      "relation": "used_by",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "gradient-descent",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "he-2016-deep-residual-learning",
+      "relation": "explains",
+      "target": "residual-connections"
+    },
+    {
+      "source": "he-2016-deep-residual-learning",
+      "relation": "related_to",
+      "target": "backpropagation"
+    },
+    {
+      "source": "he-2016-deep-residual-learning",
+      "relation": "uses",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "he-2016-deep-residual-learning",
+      "relation": "uses",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "hochreiter-1997-long-short-term-memory",
+      "relation": "explains",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "hochreiter-1997-long-short-term-memory",
+      "relation": "extends",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "hochreiter-1997-long-short-term-memory",
+      "relation": "related_to",
+      "target": "activation-functions"
+    },
+    {
+      "source": "hochreiter-1997-long-short-term-memory",
+      "relation": "related_to",
+      "target": "backpropagation"
+    },
+    {
+      "source": "ioffe-2015-batch-normalization",
+      "relation": "explains",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "ioffe-2015-batch-normalization",
+      "relation": "related_to",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "ioffe-2015-batch-normalization",
+      "relation": "related_to",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "ioffe-2015-batch-normalization",
+      "relation": "related_to",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "applied_in",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "compares_with",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "introduced_in",
+      "target": "ba-2016-layer-normalization"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "related_to",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "related_to",
+      "target": "residual-connections"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "used_by",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "layer-normalization",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "lecun-1989-optimal-brain-damage",
+      "relation": "explains",
+      "target": "neural-network-pruning"
+    },
+    {
+      "source": "lecun-1989-optimal-brain-damage",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "lecun-1989-optimal-brain-damage",
+      "relation": "related_to",
+      "target": "regularization"
+    },
+    {
+      "source": "lecun-1989-optimal-brain-damage",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "lecun-1989-optimal-brain-damage",
+      "relation": "uses",
+      "target": "loss-functions"
+    },
+    {
+      "source": "lecun-1998-document-recognition",
+      "relation": "explains",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "lecun-1998-document-recognition",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "lecun-1998-document-recognition",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "long-short-term-memory",
+      "relation": "compares_with",
+      "target": "transformer"
+    },
+    {
+      "source": "long-short-term-memory",
+      "relation": "introduced_in",
+      "target": "hochreiter-1997-long-short-term-memory"
+    },
+    {
+      "source": "long-short-term-memory",
+      "relation": "requires",
+      "target": "activation-functions"
+    },
+    {
+      "source": "long-short-term-memory",
+      "relation": "requires",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "long-short-term-memory",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "supported_by",
+      "target": "rumelhart-1986-backpropagation"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "supported_by",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "used_by",
+      "target": "backpropagation"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "used_by",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "used_by",
+      "target": "regularization"
+    },
+    {
+      "source": "loss-functions",
+      "relation": "uses",
+      "target": "softmax"
+    },
+    {
+      "source": "markov-chain",
+      "relation": "applied_in",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "markov-chain",
+      "relation": "extended_by",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "markov-chain",
+      "relation": "related_to",
+      "target": "bellman-equations"
+    },
+    {
+      "source": "markov-chain",
+      "relation": "requires",
+      "target": "markov-property"
+    },
+    {
+      "source": "markov-decision-process",
+      "relation": "applied_in",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "markov-decision-process",
+      "relation": "requires",
+      "target": "markov-chain"
+    },
+    {
+      "source": "markov-decision-process",
+      "relation": "requires",
+      "target": "markov-property"
+    },
+    {
+      "source": "markov-decision-process",
+      "relation": "supported_by",
+      "target": "bellman-1954-dynamic-programming"
+    },
+    {
+      "source": "markov-decision-process",
+      "relation": "used_by",
+      "target": "bellman-equations"
+    },
+    {
+      "source": "markov-decision-process",
+      "relation": "used_by",
+      "target": "q-learning"
+    },
+    {
+      "source": "markov-property",
+      "relation": "applied_in",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "markov-property",
+      "relation": "related_to",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "markov-property",
+      "relation": "related_to",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "markov-property",
+      "relation": "used_by",
+      "target": "markov-chain"
+    },
+    {
+      "source": "markov-property",
+      "relation": "used_by",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "mikolov-2013-word-representations",
+      "relation": "explains",
+      "target": "embeddings"
+    },
+    {
+      "source": "mikolov-2013-word-representations",
+      "relation": "related_to",
+      "target": "transformer"
+    },
+    {
+      "source": "mikolov-2013-word-representations",
+      "relation": "uses",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "mikolov-2013-word-representations",
+      "relation": "uses",
+      "target": "loss-functions"
+    },
+    {
+      "source": "multi-head-attention",
+      "relation": "introduced_in",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "multi-head-attention",
+      "relation": "related_to",
+      "target": "embeddings"
+    },
+    {
+      "source": "multi-head-attention",
+      "relation": "related_to",
+      "target": "neural-network-pruning"
+    },
+    {
+      "source": "multi-head-attention",
+      "relation": "requires",
+      "target": "scaled-dot-product-attention"
+    },
+    {
+      "source": "multi-head-attention",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "compares_with",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "compares_with",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "requires",
+      "target": "activation-functions"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "supported_by",
+      "target": "rumelhart-1986-backpropagation"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "uses",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "uses",
+      "target": "loss-functions"
+    },
+    {
+      "source": "multi-layer-perceptron",
+      "relation": "uses",
+      "target": "regularization"
+    },
+    {
+      "source": "nair-2010-rectified-linear-units",
+      "relation": "explains",
+      "target": "relu"
+    },
+    {
+      "source": "nair-2010-rectified-linear-units",
+      "relation": "related_to",
+      "target": "activation-functions"
+    },
+    {
+      "source": "nair-2010-rectified-linear-units",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "compares_with",
+      "target": "regularization"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "related_to",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "related_to",
+      "target": "multi-head-attention"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "requires",
+      "target": "loss-functions"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "requires",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "supported_by",
+      "target": "lecun-1989-optimal-brain-damage"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "neural-network-pruning",
+      "relation": "uses",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "positional-encoding",
+      "relation": "related_to",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "positional-encoding",
+      "relation": "related_to",
+      "target": "scaled-dot-product-attention"
+    },
+    {
+      "source": "positional-encoding",
+      "relation": "requires",
+      "target": "embeddings"
+    },
+    {
+      "source": "positional-encoding",
+      "relation": "supported_by",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "positional-encoding",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "q-learning",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "q-learning",
+      "relation": "requires",
+      "target": "bellman-equations"
+    },
+    {
+      "source": "q-learning",
+      "relation": "requires",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "q-learning",
+      "relation": "supported_by",
+      "target": "watkins-1992-q-learning"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "compares_with",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "compares_with",
+      "target": "transformer"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "extended_by",
+      "target": "long-short-term-memory"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "related_to",
+      "target": "markov-property"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "requires",
+      "target": "activation-functions"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "requires",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "supported_by",
+      "target": "elman-1990-finding-structure-in-time"
+    },
+    {
+      "source": "recurrent-neural-network",
+      "relation": "uses",
+      "target": "backpropagation"
+    },
+    {
+      "source": "regularization",
+      "relation": "compares_with",
+      "target": "neural-network-pruning"
+    },
+    {
+      "source": "regularization",
+      "relation": "related_to",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "regularization",
+      "relation": "requires",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "regularization",
+      "relation": "requires",
+      "target": "loss-functions"
+    },
+    {
+      "source": "regularization",
+      "relation": "supported_by",
+      "target": "srivastava-2014-dropout"
+    },
+    {
+      "source": "regularization",
+      "relation": "used_by",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "regularization",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "relu",
+      "relation": "popularized_by",
+      "target": "nair-2010-rectified-linear-units"
+    },
+    {
+      "source": "relu",
+      "relation": "related_to",
+      "target": "backpropagation"
+    },
+    {
+      "source": "relu",
+      "relation": "related_to",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "relu",
+      "relation": "specialization_of",
+      "target": "activation-functions"
+    },
+    {
+      "source": "relu",
+      "relation": "used_by",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "relu",
+      "relation": "used_by",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "applied_in",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "popularized_by",
+      "target": "he-2016-deep-residual-learning"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "related_to",
+      "target": "batch-normalization"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "related_to",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "requires",
+      "target": "backpropagation"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "requires",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "used_by",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "residual-connections",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "rumelhart-1986-backpropagation",
+      "relation": "explains",
+      "target": "backpropagation"
+    },
+    {
+      "source": "rumelhart-1986-backpropagation",
+      "relation": "explains",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "rumelhart-1986-backpropagation",
+      "relation": "related_to",
+      "target": "activation-functions"
+    },
+    {
+      "source": "rumelhart-1986-backpropagation",
+      "relation": "related_to",
+      "target": "gradient-descent"
+    },
+    {
+      "source": "rumelhart-1986-backpropagation",
+      "relation": "related_to",
+      "target": "loss-functions"
+    },
+    {
+      "source": "scaled-dot-product-attention",
+      "relation": "introduced_in",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "scaled-dot-product-attention",
+      "relation": "related_to",
+      "target": "embeddings"
+    },
+    {
+      "source": "scaled-dot-product-attention",
+      "relation": "related_to",
+      "target": "positional-encoding"
+    },
+    {
+      "source": "scaled-dot-product-attention",
+      "relation": "requires",
+      "target": "softmax"
+    },
+    {
+      "source": "scaled-dot-product-attention",
+      "relation": "used_by",
+      "target": "multi-head-attention"
+    },
+    {
+      "source": "scaled-dot-product-attention",
+      "relation": "used_by",
+      "target": "transformer"
+    },
+    {
+      "source": "softmax",
+      "relation": "related_to",
+      "target": "transformer"
+    },
+    {
+      "source": "softmax",
+      "relation": "specialization_of",
+      "target": "activation-functions"
+    },
+    {
+      "source": "softmax",
+      "relation": "supported_by",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "softmax",
+      "relation": "used_by",
+      "target": "loss-functions"
+    },
+    {
+      "source": "softmax",
+      "relation": "used_by",
+      "target": "scaled-dot-product-attention"
+    },
+    {
+      "source": "srivastava-2014-dropout",
+      "relation": "compares_with",
+      "target": "neural-network-pruning"
+    },
+    {
+      "source": "srivastava-2014-dropout",
+      "relation": "explains",
+      "target": "regularization"
+    },
+    {
+      "source": "srivastava-2014-dropout",
+      "relation": "related_to",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "transformer",
+      "relation": "compares_with",
+      "target": "convolutional-neural-network"
+    },
+    {
+      "source": "transformer",
+      "relation": "compares_with",
+      "target": "recurrent-neural-network"
+    },
+    {
+      "source": "transformer",
+      "relation": "introduced_in",
+      "target": "vaswani-2017-attention"
+    },
+    {
+      "source": "transformer",
+      "relation": "requires",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "transformer",
+      "relation": "requires",
+      "target": "multi-head-attention"
+    },
+    {
+      "source": "transformer",
+      "relation": "requires",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "transformer",
+      "relation": "requires",
+      "target": "positional-encoding"
+    },
+    {
+      "source": "transformer",
+      "relation": "requires",
+      "target": "residual-connections"
+    },
+    {
+      "source": "transformer",
+      "relation": "uses",
+      "target": "embeddings"
+    },
+    {
+      "source": "transformer",
+      "relation": "uses",
+      "target": "loss-functions"
+    },
+    {
+      "source": "transformer",
+      "relation": "uses",
+      "target": "regularization"
+    },
+    {
+      "source": "transformer",
+      "relation": "uses",
+      "target": "softmax"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "explains",
+      "target": "multi-head-attention"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "explains",
+      "target": "positional-encoding"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "explains",
+      "target": "scaled-dot-product-attention"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "explains",
+      "target": "transformer"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "uses",
+      "target": "embeddings"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "uses",
+      "target": "layer-normalization"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "uses",
+      "target": "multi-layer-perceptron"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "uses",
+      "target": "residual-connections"
+    },
+    {
+      "source": "vaswani-2017-attention",
+      "relation": "uses",
+      "target": "softmax"
+    },
+    {
+      "source": "watkins-1992-q-learning",
+      "relation": "explains",
+      "target": "q-learning"
+    },
+    {
+      "source": "watkins-1992-q-learning",
+      "relation": "related_to",
+      "target": "markov-chain"
+    },
+    {
+      "source": "watkins-1992-q-learning",
+      "relation": "uses",
+      "target": "bellman-equations"
+    },
+    {
+      "source": "watkins-1992-q-learning",
+      "relation": "uses",
+      "target": "markov-decision-process"
+    },
+    {
+      "source": "watkins-1992-q-learning",
+      "relation": "uses",
+      "target": "markov-property"
+    }
+  ]
+}
